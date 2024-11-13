@@ -40,3 +40,46 @@
 .read-the-docs {
   color: #888;
 }
+
+/* styles.css */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form > div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+.PhoneInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
